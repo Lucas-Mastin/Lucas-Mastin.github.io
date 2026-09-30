@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stick Stacks</title>
-<link rel="icon" type="image/x-icon" href="">
+<link rel="icon" type="image/x-icon" href="/workspaces/Lucas-Mastin.github.io/favimage.png">
 <style>
 
 body {
