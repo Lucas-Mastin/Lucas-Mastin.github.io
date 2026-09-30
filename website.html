@@ -7,7 +7,6 @@
 <title>Stick Stacks</title>
 <link rel="icon" type="image/x-icon" href="C:\Users\lmastin3\OneDrive - Finger Lakes Community College\FLCC stuff\CSC-103 Computing Sciences Portal\Html stuff/favimage.png">
 <style>
-
 body {
   background-color: #11EE1F; /*light-neon green*/
   max-width: 700px;
@@ -41,25 +40,35 @@ ul {
   list-style-position: inside;
 }
 
-a {  /*for links*/
-  color: #ffa500;
+.button-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
 }
-img{
-  display: block;
-  margin: auto;
-  width: 90%;
-  max-width: 350px;
-  height: auto;}
-  ul {
-  color: white;
-  text-align: center;
-  font-family: Georgia, serif;
-  font-style: italic;
-  list-style-position: inside;
+
+.FNAF_button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0d6efd;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
 }
-a {  /*for links*/
-  color: #ffa500;
+
+.FNAF_button-link:hover {
+  background-color: #0b5ed7;
 }
+
 img {
   display: block;
   margin: auto;
@@ -69,29 +78,34 @@ img {
   border-radius: 30%; /*round corners*/
   border: 7px solid #f4fd72; /*yellow*/
 }
-.mybtn {
-  padding: 10px 20px;
-  background-color: blue;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+
+a {
+  color: #ffa500;
 }
 </style>
 </head>
 <body>
-  <button class="mybtn">
-    
-  </button>
-<header>
-  <h1></h1>
-  <p></p>
-</header>
-<main>
-      
-</main>
-<footer>
-</footer>
+  <ul class="button-list">
+    <li><a href="https://irv77.github.io/hd_fnaf/1/" class="FNAF_button-link">FNAF 1</a></li>
+    <li><a href="https://irv77.github.io/hd_fnaf/2/" class="FNAF_button-link">FNAF 2</a></li>
+    <li><a href="https://irv77.github.io/hd_fnaf/3/" class="FNAF_button-link">FNAF 3</a></li>
+    <li><a href="https://irv77.github.io/hd_fnaf/4/" class="FNAF_button-link">FNAF 4</a></li>
+    <li><a href="https://irv77.github.io/hd_fnaf/w/" class="FNAF_button-link">FNAF World</a></li>
+    <li><a href="https://irv77.github.io/hd_fnaf/sl/" class="FNAF_button-link">FNAF Sister Location</a></li>
+    <li><a href="https://irv77.github.io/hd_fnaf/ps/" class="FNAF_button-link">FNAF Pizzeria Simulator</a></li>
+    <li><a href="https://irv77.github.io/hd_fnaf/ucn/" class="FNAF_button-link">FNAF Ultimate Custom Night</a></li>
+  </ul>
+
+  <header>
+    <h1></h1>
+    <p></p>
+  </header>
+
+  <main>
+  </main>
+
+  <footer>
+  </footer>
 </body>
 
 </html>
