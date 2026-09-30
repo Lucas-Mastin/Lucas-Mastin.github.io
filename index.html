@@ -2,11 +2,38 @@
 <html lang="en">
 
 <head>
+  <h1>welcome to Stick Stacks</h1>
+  <p>A Website by Lucas that includes games (Curently only fnaf)</p>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stick Stacks</title>
 <link rel="icon" type="image/png" href="favimage.png">
 <style>
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 body {
   background-color: #11EE1F; /*light-neon green*/
   max-width: 700px;
@@ -85,16 +112,19 @@ a {
 </style>
 </head>
 <body>
-  <ul class="button-list">
-    <li><a href="https://irv77.github.io/hd_fnaf/1/" class="FNAF_button-link">FNAF 1</a></li>
-    <li><a href="https://irv77.github.io/hd_fnaf/2/" class="FNAF_button-link">FNAF 2</a></li>
-    <li><a href="https://irv77.github.io/hd_fnaf/3/" class="FNAF_button-link">FNAF 3</a></li>
-    <li><a href="https://irv77.github.io/hd_fnaf/4/" class="FNAF_button-link">FNAF 4</a></li>
-    <li><a href="https://irv77.github.io/hd_fnaf/w/" class="FNAF_button-link">FNAF World</a></li>
-    <li><a href="https://irv77.github.io/hd_fnaf/sl/" class="FNAF_button-link">FNAF Sister Location</a></li>
-    <li><a href="https://irv77.github.io/hd_fnaf/ps/" class="FNAF_button-link">FNAF Pizzeria Simulator</a></li>
-    <li><a href="https://irv77.github.io/hd_fnaf/ucn/" class="FNAF_button-link">FNAF Ultimate Custom Night</a></li>
-  </ul>
+  <div class="dropdown">
+    <button> class="dropbtn>FNAF</button>
+    <div class="dropdown-content">
+      <a href="https://irv77.github.io/hd_fnaf/1/" class="FNAF_button-link">FNAF 1</a>
+      <a href="https://irv77.github.io/hd_fnaf/2/" class="FNAF_button-link">FNAF 2</a>
+      <a href="https://irv77.github.io/hd_fnaf/3/" class="FNAF_button-link">FNAF 3</a>
+      <a href="https://irv77.github.io/hd_fnaf/4/" class="FNAF_button-link">FNAF 4</a>
+      <a href="https://irv77.github.io/hd_fnaf/w/" class="FNAF_button-link">FNAF World</a>
+      <a href="https://irv77.github.io/hd_fnaf/sl/" class="FNAF_button-link">FNAF Sister Location</a>
+      <a href="https://irv77.github.io/hd_fnaf/ps/" class="FNAF_button-link">FNAF Pizzeria Simulator</a>
+      <a href="https://irv77.github.io/hd_fnaf/ucn/" class="FNAF_button-link">FNAF Ultimate Custom Night</a>
+    </div>
+  </div>
 
   <header>
     <h1></h1>
